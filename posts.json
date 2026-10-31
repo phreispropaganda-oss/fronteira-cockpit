@@ -1,0 +1,405 @@
+{
+ "gerado_em": "31/10/2026 15:19",
+ "posts": [
+  {
+   "id": "piloto01-c7_leitura",
+   "ep": "piloto01",
+   "tipo": "Corte",
+   "titulo": "O acordo dos EUA com o Paraguai muda o quê pro Brasil?",
+   "legenda": "O acordo dos EUA com o Paraguai muda o quê pro Brasil?\n\nNo curto prazo, pouco muda na conta de luz. O que importa é a tendência: a sobra barata de Itaipu tende a encolher.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-02 12:00",
+   "video": "media/piloto01-c7_leitura.mp4",
+   "mb": 5.5
+  },
+  {
+   "id": "piloto01-c6_taiwan",
+   "ep": "piloto01",
+   "tipo": "Corte",
+   "titulo": "O único país da América do Sul que mantém relações com Taiwan",
+   "legenda": "O único país da América do Sul que mantém relações com Taiwan\n\nO Paraguai mantém relações com Taiwan desde 1957, e isso pesa na disputa entre EUA e China.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-31 19:00",
+   "video": "media/piloto01-c6_taiwan.mp4",
+   "mb": 7.5
+  },
+  {
+   "id": "piloto01-c5_china",
+   "ep": "piloto01",
+   "tipo": "Corte",
+   "titulo": "Por que os EUA querem a energia do Paraguai?",
+   "legenda": "Por que os EUA querem a energia do Paraguai?\n\nEnergia barata e renovável, e um recado para a China: o que o comunicado americano diz.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-29 12:00",
+   "video": "media/piloto01-c5_china.mp4",
+   "mb": 6.5
+  },
+  {
+   "id": "piloto01-c4_conta",
+   "ep": "piloto01",
+   "tipo": "Corte",
+   "titulo": "Quanto o data center americano tira da energia que sobra pro Brasil?",
+   "legenda": "Quanto o data center americano tira da energia que sobra pro Brasil?\n\nUm data center de 106 MW consome até ~930 GWh por ano: perto de 9% da sobra paraguaia que vem pro Brasil.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-30 12:00",
+   "video": "media/piloto01-c4_conta.mp4",
+   "mb": 4.1
+  },
+  {
+   "id": "piloto01-c3_tratado",
+   "ep": "piloto01",
+   "tipo": "Corte",
+   "titulo": "Como Itaipu é dividida entre Brasil e Paraguai",
+   "legenda": "Como Itaipu é dividida entre Brasil e Paraguai\n\n20 turbinas, 10 na frequência do Paraguai e 10 na do Brasil, e um tratado de 1973 que divide tudo meio a meio.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-01 12:00",
+   "video": "media/piloto01-c3_tratado.mp4",
+   "mb": 6.0
+  },
+  {
+   "id": "piloto01-c2_36",
+   "ep": "piloto01",
+   "tipo": "Corte",
+   "titulo": "O Paraguai usa só 36% de Itaipu? Esse número está errado",
+   "legenda": "O Paraguai usa só 36% de Itaipu? Esse número está errado\n\nO Paraguai ficou com 35,6% de toda a energia de Itaipu em 2025. Como a parte dele é a metade, ele usou cerca de 71% do que tem direito.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "agora",
+   "video": "media/piloto01-c2_36.mp4",
+   "mb": 3.0
+  },
+  {
+   "id": "piloto01-c1_gancho",
+   "ep": "piloto01",
+   "tipo": "Corte",
+   "titulo": "Os EUA tomaram Itaipu? O que o acordo com o Paraguai diz de verdade",
+   "legenda": "Os EUA tomaram Itaipu? O que o acordo com o Paraguai diz de verdade\n\nUma empresa americana vai usar energia de Itaipu num centro de inteligência artificial no Paraguai. Não, os EUA não tomaram a usina.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "agora",
+   "video": "media/piloto01-c1_gancho.mp4",
+   "mb": 4.8
+  },
+  {
+   "id": "piloto01-completo",
+   "ep": "piloto01",
+   "tipo": "Vídeo completo",
+   "titulo": "Os EUA vão usar a energia de Itaipu? O que o acordo com o Paraguai muda pro Brasil",
+   "legenda": "Os EUA vão usar a energia de Itaipu?\n\nUma empresa americana vai construir um centro de inteligência artificial no Paraguai movido pela energia de Itaipu. O que foi assinado, o que o tratado de 1973 diz e se isso tira energia do Brasil.\n\nFontes: Departamento de Estado dos EUA (21/10/2026), Crusoe (22/10/2026), CNN Brasil, Poder360, ICL Notícias, Agência Brasil, ABC Color (Relatório Anual 2025 de Itaipu), Tratado de Itaipu (1973). Lista completa com links no YouTube: Fronteira Explicada.\n\nNarração com voz sintética.\n\n#Itaipu #Paraguai #Geopolítica #Brasil #EUA",
+   "quando": "",
+   "video": "media/piloto01-completo.mp4",
+   "mb": 28.9
+  },
+  {
+   "id": "ep016_2026-10-31_noticia-c5_posse",
+   "ep": "ep016_2026-10-31_noticia",
+   "tipo": "Corte",
+   "titulo": "Lula vai convidar Milei para a posse?",
+   "legenda": "Lula vai convidar Milei para a posse?\n\nSegundo a CNN Brasil, Lula vai convidar Milei e Trump para a posse de 5 de janeiro de 2027. Até 30/10, nenhum dos dois tinha parabenizado Lula, e o governo não vê sinal de melhora na relação.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-05 09:00",
+   "video": "media/ep016_2026-10-31_noticia-c5_posse.mp4",
+   "mb": 2.6
+  },
+  {
+   "id": "ep016_2026-10-31_noticia-c4_barrar",
+   "ep": "ep016_2026-10-31_noticia",
+   "tipo": "Corte",
+   "titulo": "A Argentina era obrigada a barrar Flávio?",
+   "legenda": "A Argentina era obrigada a barrar Flávio?\n\nA ordem de Moraes proibia Flávio de sair do Brasil, mas não mandava prendê-lo. A Polícia Federal diz que ele não era foragido, e a Migração argentina afirma que ele entrou com documentos válidos e sem impedimento legal.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-04 18:00",
+   "video": "media/ep016_2026-10-31_noticia-c4_barrar.mp4",
+   "mb": 3.6
+  },
+  {
+   "id": "ep016_2026-10-31_noticia-c3_embaixador",
+   "ep": "ep016_2026-10-31_noticia",
+   "tipo": "Corte",
+   "titulo": "Por que Brasil e Argentina estão sem embaixador?",
+   "legenda": "Por que Brasil e Argentina estão sem embaixador?\n\nDepois do discurso de Milei na convenção do PL, em 25/07, o Brasil chamou de volta seu embaixador e, em 04/08, rebaixou a relação: hoje cada lado tem só um encarregado de negócios.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-04 13:00",
+   "video": "media/ep016_2026-10-31_noticia-c3_embaixador.mp4",
+   "mb": 4.1
+  },
+  {
+   "id": "ep016_2026-10-31_noticia-c2_cobrou",
+   "ep": "ep016_2026-10-31_noticia",
+   "tipo": "Corte",
+   "titulo": "O Brasil cobrou explicações da Argentina?",
+   "legenda": "O Brasil cobrou explicações da Argentina?\n\nO chanceler Pablo Quirno escreveu que é falso que o Brasil pediu explicações. Mas os dois lados confirmam a reunião no Itamaraty: para a CNN Brasil foi pedido de esclarecimentos, para fontes do Itamaraty, só uma conversa para colher informações.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-04 09:00",
+   "video": "media/ep016_2026-10-31_noticia-c2_cobrou.mp4",
+   "mb": 3.1
+  },
+  {
+   "id": "ep016_2026-10-31_noticia-c1_ajudou",
+   "ep": "ep016_2026-10-31_noticia",
+   "tipo": "Corte",
+   "titulo": "A Argentina ajudou Flávio a sair do Brasil?",
+   "legenda": "A Argentina ajudou Flávio a sair do Brasil?\n\nAté 31/10/2026 ninguém provou. Uma juíza argentina mandou preservar as imagens da ponte e do aeroporto, o Itamaraty chamou a diplomata argentina e o chanceler de Milei diz que o Brasil não pediu explicações.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "agora",
+   "video": "media/ep016_2026-10-31_noticia-c1_ajudou.mp4",
+   "mb": 2.9
+  },
+  {
+   "id": "ep016_2026-10-31_noticia-completo",
+   "ep": "ep016_2026-10-31_noticia",
+   "tipo": "Vídeo completo",
+   "titulo": "A Argentina de Milei ajudou Flávio a sair do Brasil? Justiça apura",
+   "legenda": "A Argentina de Milei ajudou Flávio a sair do Brasil? Justiça apura\n\nUma juíza argentina mandou preservar as câmeras da ponte e do aeroporto por onde Flávio Bolsonaro passou, mas ainda não abriu investigação formal e nada foi provado. O Itamaraty chamou a diplomata argentina; o chanceler Pablo Quirno diz que é falso que o Brasil pediu explicações, e os dois países estão sem embaixador desde agosto.\n\nFontes: CNN Brasil (30/10/2026), Poder360 (30/10/2026), Metrópoles (30/10/2026), AFP (30/10/2026), Chequeado (28 e 29/10/2026), Agência Brasil (26 e 28/10/2026), BAE Negocios e Cadena 3 (29/10/2026), Buenos Aires Times (27 e 28/10/2026), Folhapress (04/08/2026), Gazeta do Povo com dados do MDIC (27/07/2026).\n\nNarração com voz sintética.\n\n#Argentina #Milei #BrasilArgentina #Geopolítica",
+   "quando": "",
+   "video": "media/ep016_2026-10-31_noticia-completo.mp4",
+   "mb": 27.2
+  },
+  {
+   "id": "ep015_2026-10-31_curiosidade-c4_rincao",
+   "ep": "ep015_2026-10-31_curiosidade",
+   "tipo": "Corte",
+   "titulo": "Uruguai reivindica terra do Brasil? Rincão de Artigas",
+   "legenda": "Uruguai reivindica terra do Brasil? Rincão de Artigas\n\nO Uruguai reivindica o Rincão de Artigas, uns 25 mil hectares em Santana do Livramento (RS). O Brasil nunca aceitou rever a fronteira. A última nota uruguaia é de 11/06/2025.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-02 12:00",
+   "video": "media/ep015_2026-10-31_curiosidade-c4_rincao.mp4",
+   "mb": 4.5
+  },
+  {
+   "id": "ep015_2026-10-31_curiosidade-c3_ponsonby",
+   "ep": "ep015_2026-10-31_curiosidade",
+   "tipo": "Corte",
+   "titulo": "Quem sugeriu um Uruguai independente? Lord Ponsonby",
+   "legenda": "Quem sugeriu um Uruguai independente? Lord Ponsonby\n\nO diplomata britânico Lord Ponsonby mediou a paz entre Brasil e Buenos Aires e, a partir de 1827, passou a sugerir uma saída: nem Brasil, nem Buenos Aires, um país independente.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-01 19:00",
+   "video": "media/ep015_2026-10-31_curiosidade-c3_ponsonby.mp4",
+   "mb": 4.8
+  },
+  {
+   "id": "ep015_2026-10-31_curiosidade-c2_data",
+   "ep": "ep015_2026-10-31_curiosidade",
+   "tipo": "Corte",
+   "titulo": "A independência do Uruguai é 25 de agosto?",
+   "legenda": "A independência do Uruguai é 25 de agosto?\n\nO feriado da independência uruguaia é 25 de agosto, mas no mesmo dia a assembleia também votou unir a província às argentinas. Duas historiadoras leem a data de formas opostas.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-11-01 15:00",
+   "video": "media/ep015_2026-10-31_curiosidade-c2_data.mp4",
+   "mb": 4.9
+  },
+  {
+   "id": "ep015_2026-10-31_curiosidade-c1_gancho",
+   "ep": "ep015_2026-10-31_curiosidade",
+   "tipo": "Corte",
+   "titulo": "Uruguai já foi do Brasil? Sim, até 1828",
+   "legenda": "Uruguai já foi do Brasil? Sim, até 1828\n\nDe 1821 a 1828, o território do Uruguai foi a Província Cisplatina, a mais ao sul do Brasil. Um acordo assinado no Rio de Janeiro em 27/08/1828 separou a província do Império.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "agora",
+   "video": "media/ep015_2026-10-31_curiosidade-c1_gancho.mp4",
+   "mb": 3.3
+  },
+  {
+   "id": "ep015_2026-10-31_curiosidade-completo",
+   "ep": "ep015_2026-10-31_curiosidade",
+   "tipo": "Vídeo completo",
+   "titulo": "O Uruguai já foi do Brasil? Por que ele virou um país",
+   "legenda": "O Uruguai já foi do Brasil? Por que ele virou um país\n\nDe 1821 a 1828, o território do Uruguai foi a Província Cisplatina. Uma guerra em que nenhum lado se impôs e uma convenção assinada no Rio de Janeiro, com mediação britânica, criaram o país, que até hoje reivindica uma área em Santana do Livramento (RS).\n\nFontes: Convenção Preliminar de Paz (27/08/1828); BBC News Brasil (23/04/2025); BBC News Mundo via El Observador (25/08/2024); Biblioteca do Congresso dos EUA, Country Study Uruguay; El Observador (21/06/2017 e 11/06/2025); La Nación, artigo de Julio María Sanguinetti (02/09/2024); Fundação Konrad Adenauer (03/10/2015); Agência Senado (01/12/2014); Itamaraty (26/10/2026); Infobae (16/06/2025); Gazeta do Povo (01/08/2025).\n\nNarração com voz sintética.\n\n#Uruguai #Cisplatina #Brasil #Geopolítica #História",
+   "quando": "",
+   "video": "media/ep015_2026-10-31_curiosidade-completo.mp4",
+   "mb": 26.6
+  },
+  {
+   "id": "ep014_2026-10-30_shorts-short4",
+   "ep": "ep014_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "Por que Brasil e Argentina estão sem embaixador?",
+   "legenda": "Por que Brasil e Argentina estão sem embaixador? Em julho, Milei chamou Lula de presidiário num evento no Brasil e repetiu a ofensa em agosto. O Brasil manteve o embaixador fora de Buenos Aires, e o argentino também saiu de Brasília. Fontes: Agência Estado (26/07/2026 e 05/08/2026), ABC Color (02/08/2026), Poder360 (30/10/2026), CNN Brasil (30/10/2026). Narração com voz sintética. #milei #lula #argentina #geopolitica #FronteiraExplicada",
+   "quando": "2026-11-02 21:00",
+   "video": "media/ep014_2026-10-30_shorts-short4.mp4",
+   "mb": 21.9
+  },
+  {
+   "id": "ep014_2026-10-30_shorts-short3",
+   "ep": "ep014_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "Brasil cobrou explicações da Argentina sobre Flávio?",
+   "legenda": "Brasil cobrou explicações da Argentina sobre Flávio? Diplomatas brasileiros dizem que sim. O chanceler argentino, Pablo Quirno, diz que é falso, mas não negou a reunião de 29 de outubro. Fontes: CNN Brasil (30/10/2026), Poder360 (30/10/2026), ICL Notícias (30/10/2026), Noticias Argentinas (30/10/2026), AFP (30/10/2026). Narração com voz sintética. #argentina #milei #itamaraty #geopolitica #FronteiraExplicada",
+   "quando": "2026-11-01 11:00",
+   "video": "media/ep014_2026-10-30_shorts-short3.mp4",
+   "mb": 20.0
+  },
+  {
+   "id": "ep014_2026-10-30_shorts-short2",
+   "ep": "ep014_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "Por que a Argentina deixou Flávio passar?",
+   "legenda": "Por que a Argentina deixou Flávio passar? Segundo a Folha, ele mostrou o passaporte italiano, que ninguém bloqueou. Para a Argentina, não havia ordem de prisão nem restrição contra ele. Fontes: Folha de S.Paulo (28/10/2026), CNN Brasil (28/10/2026), Infobae (30/10/2026), Perfil (30/10/2026), Noticias Argentinas (30/10/2026). Narração com voz sintética. #flaviobolsonaro #argentina #passaporte #geopolitica #FronteiraExplicada",
+   "quando": "2026-10-31 19:00",
+   "video": "media/ep014_2026-10-30_shorts-short2.mp4",
+   "mb": 17.9
+  },
+  {
+   "id": "ep014_2026-10-30_shorts-short1",
+   "ep": "ep014_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "A Argentina ajudou Flávio Bolsonaro a fugir?",
+   "legenda": "A Argentina ajudou Flávio Bolsonaro a fugir? Ainda não há prova. A Justiça argentina mandou guardar as imagens da fronteira e do aeroporto e ainda decide se abre investigação sobre o governo Milei, que diz que a passagem foi legal. Fontes: Poder360 (30/10/2026), Infobae (29/10/2026 e 30/10/2026), Perfil (30/10/2026), CNN Brasil (30/10/2026), Agência Brasil (28/10/2026). Narração com voz sintética. #flaviobolsonaro #argentina #milei #geopolitica #FronteiraExplicada",
+   "quando": "2026-10-31 11:00",
+   "video": "media/ep014_2026-10-30_shorts-short1.mp4",
+   "mb": 20.9
+  },
+  {
+   "id": "ep013_2026-10-30_noticia-c4_prorroga",
+   "ep": "ep013_2026-10-30_noticia",
+   "tipo": "Corte",
+   "titulo": "A prorrogação mudou a eleição? Menos de 1%",
+   "legenda": "A prorrogação mudou a eleição? Menos de 1%\n\nTrump e Flávio questionam a votação prorrogada por duas horas, mas foram cerca de 34 mil votos, menos de 1% da diferença de 4,43 milhões. A embaixada dos EUA, segundo a Folha, chamou o resultado de definitivo. Conta do canal, aberta no comentário fixado do vídeo completo.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-31 18:00",
+   "video": "media/ep013_2026-10-30_noticia-c4_prorroga.mp4",
+   "mb": 4.2
+  },
+  {
+   "id": "ep013_2026-10-30_noticia-c3_aval",
+   "ep": "ep013_2026-10-30_noticia",
+   "tipo": "Corte",
+   "titulo": "Lula precisa que Trump reconheça? Não",
+   "legenda": "Lula precisa que Trump reconheça? Não\n\nNenhuma regra do direito internacional fixa prazo para um país parabenizar o vencedor de outro: é um gesto político. Quem confirma o resultado é a Justiça Eleitoral, e a posse é em 5 de janeiro de 2027, pela Constituição.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-31 14:00",
+   "video": "media/ep013_2026-10-30_noticia-c3_aval.mp4",
+   "mb": 3.4
+  },
+  {
+   "id": "ep013_2026-10-30_noticia-c2_foto",
+   "ep": "ep013_2026-10-30_noticia",
+   "tipo": "Corte",
+   "titulo": "Trump recebeu Flávio? A foto é falsa",
+   "legenda": "Trump recebeu Flávio? A foto é falsa\n\nA foto de Trump abraçando Flávio num aeroporto foi gerada com inteligência artificial, segundo a Lupa. A agenda de Trump em 28/10 era em Ohio, a cerca de 1.700 km de Miami. Receber, aqui, quer dizer deixar entrar: não houve reunião até o fechamento.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-30 21:00",
+   "video": "media/ep013_2026-10-30_noticia-c2_foto.mp4",
+   "mb": 4.0
+  },
+  {
+   "id": "ep013_2026-10-30_noticia-c1_reconhece",
+   "ep": "ep013_2026-10-30_noticia",
+   "tipo": "Corte",
+   "titulo": "Trump reconheceu Lula? Até agora, não",
+   "legenda": "Trump reconheceu Lula? Até agora, não\n\nCinco dias depois da reeleição de Lula, com 51,79% dos votos válidos, a Casa Branca não tinha mandado os parabéns. Trump chamou a eleição de vergonha e o governo dele autorizou a entrada de Flávio Bolsonaro nos EUA.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "agora",
+   "video": "media/ep013_2026-10-30_noticia-c1_reconhece.mp4",
+   "mb": 3.7
+  },
+  {
+   "id": "ep013_2026-10-30_noticia-completo",
+   "ep": "ep013_2026-10-30_noticia",
+   "tipo": "Vídeo completo",
+   "titulo": "Trump vai reconhecer a vitória de Lula? O que muda pro Brasil",
+   "legenda": "Trump vai reconhecer a vitória de Lula? O que muda pro Brasil\n\nCinco dias depois da reeleição de Lula, o governo Trump não tinha mandado os parabéns e autorizou a entrada de Flávio Bolsonaro nos EUA. Trump e Flávio não se encontraram: a foto dos dois abraçados é falsa, feita com IA.\n\nFontes: Reuters (30/10/2026), AFP (29/10/2026), CNN Brasil (26 e 29/10/2026), Agência Brasil (28 e 29/10/2026), Poder360 (26 e 28/10/2026), Metrópoles (29/10/2026), Folha de S.Paulo via A Tarde e Times Brasil (26 e 30/10/2026), Lupa (29/10/2026), Exame (26/10/2026), Folhapress (16/07/2026).\n\nNarração com voz sintética.\n\n#Trump #Lula #BrasilEUA #Geopolítica",
+   "quando": "",
+   "video": "media/ep013_2026-10-30_noticia-completo.mp4",
+   "mb": 28.3
+  },
+  {
+   "id": "ep012_2026-10-30_shorts-short5",
+   "ep": "ep012_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "Caso Flávio: Congresso dos EUA investiga? Ainda não",
+   "legenda": "Caso Flávio: Congresso dos EUA investiga? Ainda não: vinte e cinco deputados democratas cobraram explicações do governo Trump, mas são minoria, e o governo responde se quiser. A eleição de 3 de novembro pode mudar isso. Fontes: Politico (30/10/2026), CNN Brasil (30/10/2026), AFP (20/10/2026), Departamento de Justiça dos EUA (2017). Narração com voz sintética. #flaviobolsonaro #eua #trump #geopolitica #FronteiraExplicada",
+   "quando": "2026-11-02 21:00",
+   "video": "media/ep012_2026-10-30_shorts-short5.mp4",
+   "mb": 27.5
+  },
+  {
+   "id": "ep012_2026-10-30_shorts-short4",
+   "ep": "ep012_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "Flávio pode ficar nos EUA? Até um ano",
+   "legenda": "Flávio pode ficar nos EUA? Até um ano, por enquanto, com uma licença temporária chamada parole. Para ficar de vez, precisa do green card, e no Brasil segue senador até o começo de 2027. Fontes: Reuters (30/10/2026), New York Times via CNN Brasil (29/10/2026), USCIS (30/10/2026), Agência Brasil (28/10/2026). Narração com voz sintética. #flaviobolsonaro #greencard #eua #FronteiraExplicada",
+   "quando": "2026-11-02 12:00",
+   "video": "media/ep012_2026-10-30_shorts-short4.mp4",
+   "mb": 18.4
+  },
+  {
+   "id": "ep012_2026-10-30_shorts-short3",
+   "ep": "ep012_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "Trump apoia Flávio como presidente? Por ora, não",
+   "legenda": "Trump apoia Flávio como presidente? Por ora, não, segundo a Reuters. Trump deixou Flávio entrar nos EUA, mas disse que não vai se envolver, e a carta trocou presidente eleito por líder do Brasil. Fontes: Reuters (30/10/2026), ICL Notícias (29/10/2026), CNN Brasil (29/10/2026), Metrópoles (28/10/2026). Narração com voz sintética. #trump #flaviobolsonaro #lula #geopolitica #FronteiraExplicada",
+   "quando": "2026-11-01 11:00",
+   "video": "media/ep012_2026-10-30_shorts-short3.mp4",
+   "mb": 20.9
+  },
+  {
+   "id": "ep012_2026-10-30_shorts-short2",
+   "ep": "ep012_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "Jato de Flávio: quem pagou US$ 150 mil?",
+   "legenda": "Jato de Flávio: quem pagou US$ 150 mil? O dono da empresa disse à AFP que um intermediário que mora nos EUA pagou, mas não revelou o nome. NYT e Reuters dizem que um assessor de Trump ajudou no voo, e ele confirmou ao Metrópoles que providenciou o jato; a Casa Branca não comentou. Fontes: AFP (29/10/2026), Poder360 (30/10/2026), Reuters (30/10/2026), CNN Brasil (29/10/2026), Metrópoles (29/10/2026), Agência Brasil (28/10/2026). Narração com voz sintética. #flaviobolsonaro #trump #politica #FronteiraExplicada",
+   "quando": "2026-10-31 19:00",
+   "video": "media/ep012_2026-10-30_shorts-short2.mp4",
+   "mb": 21.6
+  },
+  {
+   "id": "ep012_2026-10-30_shorts-short1",
+   "ep": "ep012_2026-10-30_shorts",
+   "tipo": "Short",
+   "titulo": "Trump reconheceu a vitória de Lula? Ainda não",
+   "legenda": "Trump reconheceu a vitória de Lula? Ainda não. Até 29 de outubro, o governo Trump não tinha mandado parabéns oficiais. Mas um relatório interno da embaixada americana em Brasília chamou a vitória de definitiva, segundo a Folha. Fontes: Folhapress (30/10/2026), ICL Notícias (29/10/2026), Reuters (30/10/2026), Gazeta do Povo (26/10/2026), Agência Brasil/MDIC (24/07/2026). Narração com voz sintética. #lula #trump #eleicoes2026 #geopolitica #FronteiraExplicada",
+   "quando": "2026-10-30 12:00",
+   "video": "media/ep012_2026-10-30_shorts-short1.mp4",
+   "mb": 23.4
+  },
+  {
+   "id": "ep011_2026-10-29_noticia-c5_denunciar",
+   "ep": "ep011_2026-10-29_noticia",
+   "tipo": "Corte",
+   "titulo": "Como denunciar demissão pelo voto sem se identificar?",
+   "legenda": "Como denunciar demissão pelo voto sem se identificar?\n\nDá para denunciar no site do Ministério Público do Trabalho (mpt.mp.br) ou no canal do Ministério do Trabalho, pedindo sigilo do nome ou sem se identificar. No canal do Ministério, nome e telefone são opcionais e dá para anexar foto, áudio e vídeo.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-31 15:00",
+   "video": "media/ep011_2026-10-29_noticia-c5_denunciar.mp4",
+   "mb": 5.2
+  },
+  {
+   "id": "ep011_2026-10-29_noticia-c4_meta",
+   "ep": "ep011_2026-10-29_noticia",
+   "tipo": "Corte",
+   "titulo": "Por que o MPT processou a Meta?",
+   "legenda": "Por que o MPT processou a Meta?\n\nO Ministério Público do Trabalho pede 50 milhões de reais pelo dano causado a toda a sociedade e quer que a Meta tire do ar em 24 horas posts que incentivam vigiar, expor ou demitir alguém pelo voto. A Meta não vai comentar e ainda não há decisão.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-30 19:00",
+   "video": "media/ep011_2026-10-29_noticia-c4_meta.mp4",
+   "mb": 4.3
+  },
+  {
+   "id": "ep011_2026-10-29_noticia-c3_crime",
+   "ep": "ep011_2026-10-29_noticia",
+   "tipo": "Corte",
+   "titulo": "É crime demitir por causa do voto?",
+   "legenda": "É crime demitir por causa do voto?\n\nA empresa pode demitir sem justa causa, pagando os direitos. O que a lei proíbe é o motivo discriminatório, e é preciso provar na Justiça que foi pelo voto. Crime eleitoral exige violência ou grave ameaça, com pena de até quatro anos.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-30 14:00",
+   "video": "media/ep011_2026-10-29_noticia-c3_crime.mp4",
+   "mb": 3.9
+  },
+  {
+   "id": "ep011_2026-10-29_noticia-c2_volta",
+   "ep": "ep011_2026-10-29_noticia",
+   "tipo": "Corte",
+   "titulo": "Demitido pelo voto pode voltar ao emprego?",
+   "legenda": "Demitido pelo voto pode voltar ao emprego?\n\nSe a Justiça reconhecer a discriminação, quem foi demitido pelo voto pode voltar com os salários do período ou receber o dobro, mais dano moral. A empresa pode levar multa de dez vezes o maior salário que paga.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "2026-10-30 09:00",
+   "video": "media/ep011_2026-10-29_noticia-c2_volta.mp4",
+   "mb": 3.9
+  },
+  {
+   "id": "ep011_2026-10-29_noticia-c1_gancho",
+   "ep": "ep011_2026-10-29_noticia",
+   "tipo": "Corte",
+   "titulo": "Assédio eleitoral explodiu? 1.459 denúncias em 3 dias",
+   "legenda": "Assédio eleitoral explodiu? 1.459 denúncias em 3 dias\n\nEm pouco mais de três dias, o Ministério Público do Trabalho recebeu 1.459 denúncias de ameaça, demissão e pressão pelo voto, e de posts que pedem isso. Foram 946 nas três semanas entre os turnos.\n\nNarração com voz sintética.\n\n#Geopolítica #Brasil #Fronteira",
+   "quando": "agora",
+   "video": "media/ep011_2026-10-29_noticia-c1_gancho.mp4",
+   "mb": 3.8
+  },
+  {
+   "id": "ep011_2026-10-29_noticia-completo",
+   "ep": "ep011_2026-10-29_noticia",
+   "tipo": "Vídeo completo",
+   "titulo": "Demitido ou ameaçado pelo voto? O que a lei diz e como denunciar",
+   "legenda": "Demitido ou ameaçado pelo voto? O que a lei diz e como denunciar\n\nEntre 26 e 29 de outubro de 2026, o Ministério Público do Trabalho recebeu 1.459 denúncias de assédio eleitoral, mais do que nas três semanas entre os turnos. A lei proíbe demitir ou deixar de contratar pelo voto: a empresa pode pagar multa de dez vezes o maior salário, e quem foi demitido pode voltar ou receber em dobro, se a Justiça reconhecer a discriminação. Dá para denunciar no site do MPT ou do Ministério do Trabalho, com ou sem o seu nome.\n\nFontes: Agência Brasil (27/10/2026 e 29/10/2026); Folhapress via ICL Notícias (29/10/2026); Metrópoles (29/10/2026); Poder360 (27/10/2026 e 28/10/2026); CNN Brasil (26/10/2026, 27/10/2026 e 28/10/2026); Ministério do Trabalho e Emprego (28/10/2026); Consultor Jurídico (28/10/2026); Repórter Brasil (19/09/2026); Lei 9.029/1995, Constituição Federal e Código Eleitoral (Planalto).\n\nNarração com voz sintética.\n\n#AssédioEleitoral #Eleições2026 #DireitosTrabalhistas #Brasil",
+   "quando": "",
+   "video": "media/ep011_2026-10-29_noticia-completo.mp4",
+   "mb": 30.0
+  },
+  {
+   "id": "ep010_2026-10-29_shorts-short5",
+   "ep": "ep010_2026-10-29_shorts",
+   "tipo": "Short",
+   "titulo": "Fim da 6x1: quem tem exceção? 3 grupos",
+   "legenda": "Fim da 6x1: quem tem exceção? 3 grupos. Quem tem diploma e ganha mais de R$ 21 mil sai do limite de horas, mas mantém as duas folgas; terceirizados de órgãos públicos podem esperar até outubro de 2027. Plantões e aviação aguardam um decreto com regras próprias. Fontes: Emenda Constitucional 141 (16/10/2026), Agência Brasil (16/10/2026), Agência Senado (16/10/2026), CNN Brasil (28/10/2026). Narração com voz sintética. #escala6x1 #fimda6x1 #clt #trabalho #FronteiraExplicada",
+   "quando": "2026-10-31 15:00",
+   "video": "media/ep010_2026-10-29_shorts-short5.mp4",
+   "mb": 14.9
+  }
+ ]
+}

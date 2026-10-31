@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cockpit Redes · Fronteira Explicada</title>
+<link rel="icon" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<meta name="theme-color" content="#1C1C1C">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--fundo:#1C1C1C;--cartao:#262626;--creme:#FDF0D5;--carmim:#C1121F;--coral:#E5614A;--salmao:#F4978E;--cinza:#a89e94}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--fundo);color:var(--creme);font-family:Inter,system-ui,sans-serif;padding:16px 16px 60px;max-width:640px;margin:0 auto}
+header{display:flex;align-items:center;gap:12px;margin:8px 0 18px}
+header img{width:48px;height:48px;border-radius:50%}
+h1{font-family:Oswald,sans-serif;font-size:22px;letter-spacing:.5px;text-transform:uppercase}
+.sub{color:var(--salmao);font-size:13px}
+.aviso{background:#2f2a27;border-left:4px solid var(--coral);padding:10px 12px;font-size:13px;line-height:1.45;margin-bottom:16px;border-radius:4px}
+.filtros{display:flex;gap:8px;margin-bottom:14px}
+.filtros button{flex:1;background:var(--cartao);color:var(--creme);border:1px solid #3a3a3a;border-radius:20px;padding:8px;font-size:13px}
+.filtros button.ativo{border-color:var(--coral);color:var(--coral)}
+.post{background:var(--cartao);border-radius:12px;padding:12px;margin-bottom:14px}
+.post.feito{opacity:.55}
+.topo{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:12px;color:var(--cinza)}
+.tag{background:var(--carmim);color:var(--creme);padding:2px 8px;border-radius:3px;font-family:Oswald,sans-serif;letter-spacing:.5px;text-transform:uppercase;font-size:11px}
+.post h2{font-family:Oswald,sans-serif;font-size:18px;line-height:1.2;margin-bottom:8px}
+video{width:100%;max-height:420px;background:#000;border-radius:8px;display:block}
+details{margin:8px 0}
+summary{color:var(--salmao);font-size:13px;cursor:pointer}
+pre{white-space:pre-wrap;font-family:inherit;font-size:13px;line-height:1.45;margin-top:6px;color:#e9dfcb}
+.botoes{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.botoes button,.botoes a{flex:1 1 45%;text-align:center;border:0;border-radius:8px;padding:12px 8px;font-size:15px;font-weight:600;text-decoration:none;font-family:Inter,sans-serif}
+.principal{background:var(--carmim);color:var(--creme)}
+.principal.pronto{background:var(--coral)}
+.sec{background:#353535;color:var(--creme)}
+.status{font-size:12px;color:var(--salmao);margin-top:6px;min-height:16px}
+footer{color:var(--cinza);font-size:12px;text-align:center;margin-top:20px}
+</style>
+</head>
+<body>
+<header>
+  <img src="logo.png" alt="">
+  <div><h1>Cockpit TikTok e Instagram</h1><div class="sub">Fronteira Explicada · <span id="gerado"></span></div></div>
+</header>
+<div class="aviso">No celular: toque em <b>Postar</b>. A legenda vai para a área de transferência e o vídeo é baixado; toque de novo em <b>Abrir no app</b> e escolha <b>TikTok</b> ou <b>Instagram</b> (Reels) na bandeja. Cole a legenda e marque o rótulo de conteúdo gerado por IA (a voz é sintética). Dá para postar o mesmo vídeo nos dois.</div>
+<div class="filtros">
+  <button data-f="pendentes" class="ativo">Pendentes</button>
+  <button data-f="todos">Todos</button>
+  <button data-f="feitos">Postados</button>
+</div>
+<main id="lista"></main>
+<footer>Marcação de "postado" fica salva só neste aparelho.</footer>
+<script>
+const CHAVE = 'fe-cockpit-feitos';
+let feitos = {};
+try { feitos = JSON.parse(localStorage.getItem(CHAVE) || '{}'); } catch (e) { feitos = {}; }
+const salva = () => { try { localStorage.setItem(CHAVE, JSON.stringify(feitos)); } catch (e) {} };
+let filtro = 'pendentes', posts = [];
+const blobs = {};
+
+function esc(s) { return String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+async function copia(txt) {
+  try { await navigator.clipboard.writeText(txt); return true; } catch (e) {
+    const t = document.createElement('textarea'); t.value = txt; document.body.appendChild(t); t.select();
+    const ok = document.execCommand('copy'); t.remove(); return ok;
+  }
+}
+
+async function baixa(p, st) {
+  const r = await fetch(p.video);
+  const total = +r.headers.get('content-length') || p.mb * 1e6;
+  const leitor = r.body.getReader(); const partes = []; let lido = 0;
+  for (;;) {
+    const { done, value } = await leitor.read(); if (done) break;
+    partes.push(value); lido += value.length;
+    st.textContent = 'Baixando vídeo… ' + Math.min(100, Math.round(lido / total * 100)) + '%';
+  }
+  return new File(partes, p.id + '.mp4', { type: 'video/mp4' });
+}
+
+async function postar(p, btn, st) {
+  if (blobs[p.id]) {
+    try {
+      await navigator.share({ files: [blobs[p.id]] });
+      st.textContent = 'Enviado para o app. Cole a legenda (já copiada).';
+      if (!feitos[p.id]) { feitos[p.id] = Date.now(); salva(); }
+    } catch (e) { st.textContent = e.name === 'AbortError' ? 'Cancelado.' : 'Compartilhar falhou: use Baixar vídeo.'; }
+    return;
+  }
+  const ok = await copia(p.legenda);
+  st.textContent = ok ? 'Legenda copiada. ' : 'Copie a legenda manualmente. ';
+  if (!navigator.canShare) { st.textContent += 'Este navegador não compartilha arquivos: use Baixar vídeo.'; return; }
+  btn.disabled = true;
+  try {
+    const f = await baixa(p, st);
+    if (!navigator.canShare({ files: [f] })) { st.textContent = 'Este aparelho não compartilha vídeo: use Baixar vídeo.'; return; }
+    blobs[p.id] = f;
+    btn.textContent = 'Abrir no app'; btn.classList.add('pronto');
+    st.textContent = 'Pronto. Toque em Abrir no app e escolha TikTok ou Instagram.';
+  } catch (e) { st.textContent = 'Não consegui baixar: ' + e.message; }
+  finally { btn.disabled = false; }
+}
+
+function desenha() {
+  const lista = document.getElementById('lista'); lista.innerHTML = '';
+  posts.filter(p => filtro === 'todos' || (filtro === 'feitos' ? feitos[p.id] : !feitos[p.id])).forEach(p => {
+    const el = document.createElement('article'); el.className = 'post' + (feitos[p.id] ? ' feito' : '');
+    el.innerHTML = `<div class="topo"><span class="tag">${esc(p.tipo)}</span><span>${esc(p.ep)} · ${p.mb} MB</span></div>
+      <h2>${esc(p.titulo)}</h2>
+      <video src="${esc(p.video)}" controls playsinline preload="metadata"></video>
+      <details><summary>Legenda</summary><pre>${esc(p.legenda)}</pre></details>
+      <div class="botoes">
+        <button class="principal">Postar</button>
+        <button class="sec copia">Copiar legenda</button>
+        <a class="sec" href="${esc(p.video)}" download>Baixar vídeo</a>
+        <button class="sec marca">${feitos[p.id] ? 'Desmarcar' : 'Marcar postado'}</button>
+      </div><div class="status"></div>`;
+    const st = el.querySelector('.status');
+    el.querySelector('.principal').onclick = e => postar(p, e.currentTarget, st);
+    el.querySelector('.copia').onclick = async () => { st.textContent = (await copia(p.legenda)) ? 'Legenda copiada.' : 'Não deu para copiar.'; };
+    el.querySelector('.marca').onclick = () => { if (feitos[p.id]) delete feitos[p.id]; else feitos[p.id] = Date.now(); salva(); desenha(); };
+    lista.appendChild(el);
+  });
+  if (!lista.children.length) lista.innerHTML = '<p class="sub">Nada aqui.</p>';
+}
+
+document.querySelectorAll('.filtros button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.filtros button').forEach(x => x.classList.remove('ativo'));
+  b.classList.add('ativo'); filtro = b.dataset.f; desenha();
+});
+
+fetch('posts.json?' + Date.now()).then(r => r.json()).then(d => {
+  posts = d.posts; document.getElementById('gerado').textContent = 'atualizado ' + d.gerado_em; desenha();
+}).catch(() => { document.getElementById('lista').innerHTML = '<p class="sub">Não consegui carregar a lista.</p>'; });
+</script>
+</body>
+</html>
